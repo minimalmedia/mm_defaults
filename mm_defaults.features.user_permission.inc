@@ -98,7 +98,6 @@ function mm_defaults_user_default_permissions() {
     'name' => 'access user profiles',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'editor',
     ),
   );
 
@@ -423,8 +422,7 @@ function mm_defaults_user_default_permissions() {
     'name' => 'collapse format fieldset by default',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'anonymous user',
-      '2' => 'authenticated user',
+      '1' => 'editor',
     ),
   );
 
@@ -433,9 +431,7 @@ function mm_defaults_user_default_permissions() {
     'name' => 'collapsible format selection',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'anonymous user',
-      '2' => 'authenticated user',
-      '3' => 'editor',
+      '1' => 'editor',
     ),
   );
 
@@ -864,7 +860,9 @@ function mm_defaults_user_default_permissions() {
     'name' => 'search content',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'editor',
+      '1' => 'anonymous user',
+      '2' => 'authenticated user',
+      '3' => 'editor',
     ),
   );
 
@@ -890,9 +888,7 @@ function mm_defaults_user_default_permissions() {
     'name' => 'show format selection for blocks',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'anonymous user',
-      '2' => 'authenticated user',
-      '3' => 'editor',
+      '1' => 'editor',
     ),
   );
 
@@ -901,8 +897,7 @@ function mm_defaults_user_default_permissions() {
     'name' => 'show format selection for comments',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'anonymous user',
-      '2' => 'authenticated user',
+      '1' => 'editor',
     ),
   );
 
@@ -911,9 +906,7 @@ function mm_defaults_user_default_permissions() {
     'name' => 'show format selection for nodes',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'anonymous user',
-      '2' => 'authenticated user',
-      '3' => 'editor',
+      '1' => 'editor',
     ),
   );
 
@@ -985,7 +978,9 @@ function mm_defaults_user_default_permissions() {
     'name' => 'use advanced search',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'editor',
+      '1' => 'anonymous user',
+      '2' => 'authenticated user',
+      '3' => 'editor',
     ),
   );
 
