@@ -56,7 +56,13 @@ function mm_defaults_context_default_contexts() {
   $context->name = 'sitewide';
   $context->description = 'Sitewide context';
   $context->tag = 'mm_defaults';
-  $context->conditions = array();
+  $context->conditions = array(
+    'sitewide' => array(
+      'values' => array(
+        1 => 1,
+      ),
+    ),
+  );
   $context->reactions = array();
   $context->condition_mode = 0;
 
