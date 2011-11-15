@@ -81,6 +81,8 @@ function mm_defaults_user_default_permissions() {
     'name' => 'access site-wide contact form',
     'roles' => array(
       '0' => 'administrator',
+      '1' => 'anonymous user',
+      '2' => 'authenticated user',
     ),
   );
 
