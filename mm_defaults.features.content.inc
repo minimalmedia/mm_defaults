@@ -63,11 +63,15 @@ $content['taxonomy'] = (object)array(
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<p>Taxonomy is a system of categorization that describes the content on your site. You can add or change terms in Cm&#39;s built-in system, or you can create your own, called a Vocabulary.</p><p>From the top menu bar, find Content Management &gt; Taxonomy. You will see a list of vocabularies. Category is the default provided by Cm.</p><p>Taxonomy handbook page from drupal.org: http://drupal.org/handbook/modules/taxonomy</p>',
+        'value' => '<p><a href="http://drupal.org/node/1146844">Taxonomy</a> is a system of categorization that describes the content on your site. A collection of related terms is called a Vocabulary. You can add or change terms in Cm&#39;s built-in vocabulary, or you can create your own.</p><h2>View Taxonomy Terms</h2><p>From the top menu bar, Go to Structure &gt; Taxonomy. You will see a list of vocabularies, along with the option to add a new one. Tags is the default vocabulary provided by Cm.</p><h2>See Also</h2><ol><li><a href="http://drupal.org/handbook/modules/taxonomy">Taxonomy handbook page from drupal.org</a></li></ol>',
         'summary' => '',
-        'format' => 'filtered_html',
-        'safe_value' => '<p>Taxonomy is a system of categorization that describes the content on your site. You can add or change terms in Cm\'s built-in system, or you can create your own, called a Vocabulary.From the top menu bar, find Content Management &gt; Taxonomy. You will see a list of vocabularies. Category is the default provided by Cm.Taxonomy handbook page from drupal.org: <a href="http://drupal.org/handbook/modules/taxonomy">http://drupal.org/handbook/modules/taxonomy</a></p>
-',
+        'format' => 'full_html',
+        'safe_value' => '<p><a href="http://drupal.org/node/1146844">Taxonomy</a> is a system of categorization that describes the content on your site. A collection of related terms is called a Vocabulary. You can add or change terms in Cm\'s built-in vocabulary, or you can create your own.</p>
+<h2>View Taxonomy Terms</h2>
+<p>From the top menu bar, Go to Structure &gt; Taxonomy. You will see a list of vocabularies, along with the option to add a new one. Tags is the default vocabulary provided by Cm.</p>
+<h2>See Also</h2>
+<ol><li><a href="http://drupal.org/handbook/modules/taxonomy">Taxonomy handbook page from drupal.org</a></li>
+</ol>',
         'safe_summary' => '',
       ),
     ),
