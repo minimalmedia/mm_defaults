@@ -75,6 +75,9 @@ $content['contact-form'] = (object)array(
       1 => array(
         'tid' => '3',
       ),
+      2 => array(
+        'tid' => '4',
+      ),
     ),
   ),
 );
@@ -187,19 +190,6 @@ $content['front-page'] = (object)array(
   'translate' => '0',
   'machine_name' => 'front-page',
 );
-$content['front-page2'] = (object)array(
-  'exported_path' => 'content/front-page-0',
-  'title' => 'Front Page',
-  'status' => '1',
-  'promote' => '1',
-  'sticky' => '0',
-  'type' => 'panel',
-  'language' => 'und',
-  'created' => '1326484942',
-  'comment' => '1',
-  'translate' => '0',
-  'machine_name' => 'front-page2',
-);
 $content['using-taxonomy'] = (object)array(
   'exported_path' => 'content/using-taxonomy',
   'title' => 'Using Taxonomy',
@@ -215,14 +205,10 @@ $content['using-taxonomy'] = (object)array(
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<p>&nbsp;</p>
-<meta content="text/html; charset=utf-8" http-equiv="content-type" />
-<p><a href="http://drupal.org/node/1146844">Taxonomy</a>&nbsp;is a system of categorization that describes the content on your site. A collection of related terms is called a Vocabulary. You can add or change terms in Cm&#39;s built-in vocabulary, or you can create your own.</p><h2>View Taxonomy Terms</h2><p>From the top menu bar, Go to Structure &gt; Taxonomy. You will see a list of vocabularies, along with the option to add a new one. Tags is the default vocabulary provided by Cm.</p><h2>See Also</h2><ol><li><a href="http://drupal.org/handbook/modules/taxonomy">Taxonomy handbook page from drupal.org</a></li></ol>',
+        'value' => '<p><a href="http://drupal.org/node/1146844">Taxonomy</a>&nbsp;is a system of categorization that describes the content on your site. A collection of related terms is called a Vocabulary. You can add or change terms in Cm&#39;s built-in vocabulary, or you can create your own.</p><h2>View Taxonomy Terms</h2><p>From the top menu bar, Go to Structure &gt; Taxonomy. You will see a list of vocabularies, along with the option to add a new one. Tags is the default vocabulary provided by Cm.</p><h2>See Also</h2><ol><li><a href="http://drupal.org/handbook/modules/taxonomy">Taxonomy handbook page from drupal.org</a></li></ol>',
         'summary' => '',
         'format' => 'full_html',
-        'safe_value' => '<p> </p>
-<p><meta content="text/html; charset=utf-8" http-equiv="content-type" /></p>
-<p><a href="http://drupal.org/node/1146844">Taxonomy</a> is a system of categorization that describes the content on your site. A collection of related terms is called a Vocabulary. You can add or change terms in Cm\'s built-in vocabulary, or you can create your own.</p>
+        'safe_value' => '<p><a href="http://drupal.org/node/1146844">Taxonomy</a> is a system of categorization that describes the content on your site. A collection of related terms is called a Vocabulary. You can add or change terms in Cm\'s built-in vocabulary, or you can create your own.</p>
 <h2>View Taxonomy Terms</h2>
 <p>From the top menu bar, Go to Structure &gt; Taxonomy. You will see a list of vocabularies, along with the option to add a new one. Tags is the default vocabulary provided by Cm.</p>
 <h2>See Also</h2>
@@ -235,10 +221,10 @@ $content['using-taxonomy'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '1',
+        'tid' => '2',
       ),
       1 => array(
-        'tid' => '2',
+        'tid' => '4',
       ),
     ),
   ),
