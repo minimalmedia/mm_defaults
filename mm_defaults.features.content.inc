@@ -24,14 +24,10 @@ $content['about-us'] = (object)array(
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<p>&nbsp;</p>
-<meta content="text/html; charset=utf-8" http-equiv="content-type" />
-<p>Your &quot;About Us&quot; page should include a history of your organization, and some background information on the people who work here.</p>',
+        'value' => '<p>Your &quot;About Us&quot; page should include a history of your organization, and some background information on the people who work here.</p>',
         'summary' => '',
         'format' => 'full_html',
-        'safe_value' => '<p> </p>
-<p><meta content="text/html; charset=utf-8" http-equiv="content-type" /></p>
-<p>Your "About Us" page should include a history of your organization, and some background information on the people who work here.</p>
+        'safe_value' => '<p>Your "About Us" page should include a history of your organization, and some background information on the people who work here.</p>
 ',
         'safe_summary' => '',
       ),
@@ -40,7 +36,7 @@ $content['about-us'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '3',
+        'tid' => '1',
       ),
     ),
   ),
@@ -74,10 +70,10 @@ $content['contact-form'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '1',
+        'tid' => '2',
       ),
       1 => array(
-        'tid' => '4',
+        'tid' => '3',
       ),
     ),
   ),
@@ -131,10 +127,10 @@ $content['creating-content'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '1',
+        'tid' => '2',
       ),
       1 => array(
-        'tid' => '4',
+        'tid' => '3',
       ),
     ),
   ),
@@ -173,7 +169,7 @@ $content['features-overview'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '1',
+        'tid' => '2',
       ),
     ),
   ),
@@ -190,6 +186,19 @@ $content['front-page'] = (object)array(
   'comment' => '1',
   'translate' => '0',
   'machine_name' => 'front-page',
+);
+$content['front-page2'] = (object)array(
+  'exported_path' => 'content/front-page-0',
+  'title' => 'Front Page',
+  'status' => '1',
+  'promote' => '1',
+  'sticky' => '0',
+  'type' => 'panel',
+  'language' => 'und',
+  'created' => '1326484942',
+  'comment' => '1',
+  'translate' => '0',
+  'machine_name' => 'front-page2',
 );
 $content['using-taxonomy'] = (object)array(
   'exported_path' => 'content/using-taxonomy',
