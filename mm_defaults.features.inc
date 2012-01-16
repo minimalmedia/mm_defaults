@@ -31,6 +31,14 @@ function mm_defaults_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'panel' => array(
+      'name' => t('Panel'),
+      'base' => 'node_content',
+      'description' => t(' A page with customizable layout characteristics and content.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
   );
   return $items;
 }
