@@ -5,7 +5,7 @@
  */
 
 /**
- * Implementation of hook_wysiwyg_default_profiles().
+ * Implements hook_wysiwyg_default_profiles().
  */
 function mm_defaults_wysiwyg_default_profiles() {
   $profiles = array();

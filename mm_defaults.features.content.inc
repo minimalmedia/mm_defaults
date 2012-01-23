@@ -5,7 +5,7 @@
  */
 
 /**
- * Implementation of hook_content_defaults().
+ * Implements hook_content_defaults().
  */
 function mm_defaults_content_defaults() {
 $content = array();
