@@ -31,10 +31,10 @@ function mm_defaults_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
-    'panel' => array(
-      'name' => t('Panel'),
+    'cm_panel' => array(
+      'name' => t('Cm Panel'),
       'base' => 'node_content',
-      'description' => t(' A page with customizable layout characteristics and content.'),
+      'description' => t('A panel layout broken up into rows and columns.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

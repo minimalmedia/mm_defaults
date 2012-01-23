@@ -177,31 +177,6 @@ $content['features-overview'] = (object)array(
     ),
   ),
 );
-$content['front-page'] = (object)array(
-  'exported_path' => 'content/front-page-3',
-  'title' => 'Front Page',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
-  'type' => 'panel',
-  'language' => 'und',
-  'created' => '1326594292',
-  'comment' => '1',
-  'translate' => '0',
-  'machine_name' => 'front-page',
-  'body' => array(
-    'und' => array(
-      0 => array(
-        'value' => '<p>This is a panel page.</p>',
-        'summary' => '',
-        'format' => 'full_html',
-        'safe_value' => '<p>This is a panel page.</p>
-',
-        'safe_summary' => '',
-      ),
-    ),
-  ),
-);
 $content['using-taxonomy'] = (object)array(
   'exported_path' => 'content/using-taxonomy',
   'title' => 'Using Taxonomy',
