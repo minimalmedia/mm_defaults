@@ -3,6 +3,8 @@
  * @file
  */
 
+include_once('mm_defaults.features.inc');
+
 function mm_defaults_twitter_pull_blocks() {
   return array(
     0 => (object) array(
