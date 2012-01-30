@@ -32,7 +32,7 @@ function mm_defaults_node_info() {
       'help' => '',
     ),
     'cm_panel' => array(
-      'name' => t('Cm Panel'),
+      'name' => t('Panel'),
       'base' => 'node_content',
       'description' => t('A panel layout broken up into rows and columns.'),
       'has_title' => '1',
