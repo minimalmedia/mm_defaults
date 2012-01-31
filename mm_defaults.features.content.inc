@@ -177,6 +177,19 @@ $content['features-overview'] = (object)array(
     ),
   ),
 );
+$content['front-page'] = (object)array(
+  'exported_path' => 'content/front-page',
+  'title' => 'Front Page',
+  'status' => '1',
+  'promote' => '0',
+  'sticky' => '0',
+  'type' => 'cm_panel',
+  'language' => 'und',
+  'created' => '1328039174',
+  'comment' => '1',
+  'translate' => '0',
+  'machine_name' => 'front-page',
+);
 $content['using-taxonomy'] = (object)array(
   'exported_path' => 'content/using-taxonomy',
   'title' => 'Using Taxonomy',
