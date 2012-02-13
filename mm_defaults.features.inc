@@ -27,6 +27,14 @@ function mm_defaults_ctools_plugin_api() {
  */
 function mm_defaults_node_info() {
   $items = array(
+    'cm_block' => array(
+      'name' => t('Block'),
+      'base' => 'node_content',
+      'description' => t('A small piece of content that can be plugged in as a component of other pages.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
     'cm_page' => array(
       'name' => t('Page'),
       'base' => 'node_content',
