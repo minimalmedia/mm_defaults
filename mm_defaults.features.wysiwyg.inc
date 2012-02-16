@@ -40,6 +40,7 @@ function mm_defaults_wysiwyg_default_profiles() {
           'Superscript' => 1,
           'Subscript' => 1,
           'Blockquote' => 1,
+          'Source' => 1,
           'HorizontalRule' => 1,
           'Cut' => 1,
           'Copy' => 1,
