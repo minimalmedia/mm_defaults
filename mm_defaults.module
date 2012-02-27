@@ -5,6 +5,36 @@
 
 include_once('mm_defaults.features.inc');
 
+/**
+ * Implements hook_block_info.
+ */
+function mm_defaults_block_info() {
+  $blocks = array(
+    'mini_contact_form' => array(
+      'info' => t('Mini Contact Form'),
+    ),
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view.
+ */
+function mm_defaults_block_view($delta = '') {
+  $block = array(
+    'subject' => '',
+    'content' => '',
+  );
+  switch ($delta) {
+    case 'mini_contact_form':
+      $block['subject'] = 'Contact Us';
+      $block['content'] = _mm_defaults_render_mini_contact_form();
+      return $block;
+    default:
+      return;
+  }
+}
+
 function mm_defaults_twitter_pull_blocks() {
   return array(
     0 => (object) array(
@@ -16,6 +46,17 @@ function mm_defaults_twitter_pull_blocks() {
       'theme_key' => 'twitter_pull_listing',    
     )
   );
-  
+}
+
+/**
+ * Get the standard contact form, then shorten the long text fields.
+ */
+function _mm_defaults_render_mini_contact_form() {
+  require_once drupal_get_path('module', 'contact') . '/contact.pages.inc';
+  $form = drupal_get_form('contact_site_form');
+  $form['name']['#size'] = 24;
+  $form['mail']['#size'] = 24;
+  $form['subject']['#size'] = 24;
+  return render($form);
 }
 
