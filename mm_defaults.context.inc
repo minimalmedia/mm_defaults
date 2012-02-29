@@ -104,6 +104,24 @@ function mm_defaults_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'twitter_pull-0' => array(
+          'module' => 'twitter_pull',
+          'delta' => 0,
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
+        'blog-recent' => array(
+          'module' => 'blog',
+          'delta' => 'recent',
+          'region' => 'sidebar_second',
+          'weight' => '-9',
+        ),
+        'mm_defaults-mini_contact_form' => array(
+          'module' => 'mm_defaults',
+          'delta' => 'mini_contact_form',
+          'region' => 'sidebar_second',
+          'weight' => '-8',
+        ),
         'search-form' => array(
           'module' => 'search',
           'delta' => 'form',

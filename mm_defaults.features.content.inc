@@ -190,6 +190,33 @@ $content['front-page'] = (object)array(
   'translate' => '0',
   'machine_name' => 'front-page',
 );
+$content['sample-blog-post'] = (object)array(
+  'exported_path' => 'content/about-nice-weather-were-having',
+  'title' => 'About this nice weather we\'re having.',
+  'status' => '1',
+  'promote' => '1',
+  'sticky' => '0',
+  'type' => 'blog',
+  'language' => 'und',
+  'created' => '1330482707',
+  'comment' => '2',
+  'translate' => '0',
+  'machine_name' => 'sample-blog-post',
+  'body' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>This is a sample blog post. Blog posts are characterized by their time-sensitivity, attribution to a particular author, informal tone, and integration with social sharing and interaction features.</p><p>By default, comments are enabled on blog posts, and your username will be attributed as the author.</p><p>To create a new blog post, <a href="/node/add/blog">click here</a>.</p>',
+        'summary' => '',
+        'format' => 'full_html',
+        'safe_value' => '<p>This is a sample blog post. Blog posts are characterized by their time-sensitivity, attribution to a particular author, informal tone, and integration with social sharing and interaction features.</p>
+<p>By default, comments are enabled on blog posts, and your username will be attributed as the author.</p>
+<p>To create a new blog post, <a href="/node/add/blog">click here</a>.</p>
+',
+        'safe_summary' => '',
+      ),
+    ),
+  ),
+);
 $content['using-taxonomy'] = (object)array(
   'exported_path' => 'content/using-taxonomy',
   'title' => 'Using Taxonomy',
