@@ -229,5 +229,52 @@ $content['using-taxonomy'] = (object)array(
     ),
   ),
 );
+$content['welcome-to-cm'] = (object)array(
+  'exported_path' => 'content/welcome-cm',
+  'title' => 'Welcome to Cm',
+  'status' => '1',
+  'promote' => '0',
+  'sticky' => '0',
+  'type' => 'cm_page',
+  'language' => 'und',
+  'created' => '1330481683',
+  'comment' => '1',
+  'translate' => '0',
+  'machine_name' => 'welcome-to-cm',
+  'body' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<h2>What is Cm?</h2><p>Cm is a Web content management platform that can be used to build a variety of websites, for institutions of all shapes and sizes.</p><h2>What can I do with Cm?</h2><p>Anything <a href="http://drupal.org">Drupal</a> can do. And some additional things Drupal can&#39;t do without installing and configuring some extra modules. Things like:</p><ul><li>Image Rotator</li><li>Rich text editor</li><li>Custom CSS and Javascript per-page</li><li>Flexible, scalable workflow: Manage a whole team of editors</li><li>Highly customizable section front layouts</li><li>Easily optimize your on-page SEO</li></ul><h2>How do I find out more?</h2><p>You are looking at a self-documenting demo site. Register and log in for editor access, and you can edit any page on this site, <a href="/node/1/edit">including this one</a>. The site is restored to it&#39;s original state every few hours. To request a dedicated demo site for your project, <a href="http://minimalmedia.com/contact">contact us</a>.</p><h2>Can you build a site for me, based on Cm?</h2><p>Yes. <a href="http://minimalmedia.com/quote">Tell us more</a> about what you need, and we&#39;ll provide you with a quote for implementation and hosting services.</p><h2>I&#39;m a Drupal rockstar. Can I build a site myself, based on Cm?</h2><p>Yes. Cm is open source software. You can get started <a href="https://github.com/minimalmedia/Cm">here</a>.</p>',
+        'summary' => '',
+        'format' => 'full_html',
+        'safe_value' => '<h2>What is Cm?</h2>
+<p>Cm is a Web content management platform that can be used to build a variety of websites, for institutions of all shapes and sizes.</p>
+<h2>What can I do with Cm?</h2>
+<p>Anything <a href="http://drupal.org">Drupal</a> can do. And some additional things Drupal can\'t do without installing and configuring some extra modules. Things like:</p>
+<ul><li>Image Rotator</li>
+<li>Rich text editor</li>
+<li>Custom CSS and Javascript per-page</li>
+<li>Flexible, scalable workflow: Manage a whole team of editors</li>
+<li>Highly customizable section front layouts</li>
+<li>Easily optimize your on-page SEO</li>
+</ul><h2>How do I find out more?</h2>
+<p>You are looking at a self-documenting demo site. Register and log in for editor access, and you can edit any page on this site, <a href="/node/1/edit">including this one</a>. The site is restored to it\'s original state every few hours. To request a dedicated demo site for your project, <a href="http://minimalmedia.com/contact">contact us</a>.</p>
+<h2>Can you build a site for me, based on Cm?</h2>
+<p>Yes. <a href="http://minimalmedia.com/quote">Tell us more</a> about what you need, and we\'ll provide you with a quote for implementation and hosting services.</p>
+<h2>I\'m a Drupal rockstar. Can I build a site myself, based on Cm?</h2>
+<p>Yes. Cm is open source software. You can get started <a href="https://github.com/minimalmedia/Cm">here</a>.</p>
+',
+        'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_tags' => array(
+    'und' => array(
+      0 => array(
+        'tid' => '3',
+      ),
+    ),
+  ),
+);
 return $content;
 }
