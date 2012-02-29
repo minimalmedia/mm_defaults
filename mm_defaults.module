@@ -40,7 +40,7 @@ function mm_defaults_twitter_pull_blocks() {
     0 => (object) array(
       'delta' => 'mm_defaults_0',
       'tweetkey' => '@minimalmedia',
-      'title' => '@minimalmedia',
+      'title' => 'Latest Tweet',
       'name'  => '@minimalmedia Latest Tweet',    
       'number_of_items' => 1,
       'theme_key' => 'twitter_pull_listing',    
