@@ -23,7 +23,18 @@ function mm_defaults_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-rotator-block_1' => array(
+          'module' => 'views',
+          'delta' => 'rotator-block_1',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 1;
 
   // Translatables
