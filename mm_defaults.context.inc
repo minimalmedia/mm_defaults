@@ -58,6 +58,28 @@ function mm_defaults_context_default_contexts() {
   $context = new stdClass;
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'interior';
+  $context->description = 'All pages that are not the front page.';
+  $context->tag = 'cm';
+  $context->conditions = array(
+    'context' => array(
+      'values' => array(
+        '~front' => '~front',
+      ),
+    ),
+  );
+  $context->reactions = array();
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('All pages that are not the front page.');
+  t('cm');
+  $export['interior'] = $context;
+
+  $context = new stdClass;
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'sitewide';
   $context->description = 'Sitewide context';
   $context->tag = 'cm';
@@ -68,7 +90,18 @@ function mm_defaults_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'search-form' => array(
+          'module' => 'search',
+          'delta' => 'form',
+          'region' => 'header',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 1;
 
   // Translatables
