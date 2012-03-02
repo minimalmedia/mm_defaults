@@ -41,6 +41,43 @@ $content['about-us'] = (object)array(
     ),
   ),
 );
+$content['cm-footer'] = (object)array(
+  'exported_path' => 'content/footer',
+  'title' => 'Footer',
+  'status' => '1',
+  'promote' => '1',
+  'sticky' => '0',
+  'type' => 'cm_block',
+  'language' => 'und',
+  'created' => '1330634308',
+  'comment' => '1',
+  'translate' => '0',
+  'machine_name' => 'cm-footer',
+  'body' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<div class="footer"><div class="cell"><h3>About Cm</h3><p><img alt="" src="/profiles/cm/themes/cm_theme/logo.png" style="width: 70px; height: 81px; " /></p><p><a href="http://minimalmedia.com/products/cm" title="Cm is a web content management system based on Drupal">Cm</a>&nbsp;is a web content management system for businesses and institutions of all shapes and sizes.</p></div><div class="cell"><h3>About Minimal Media</h3><p><a href="http://minimalmedia.com" title="Minimal Media">Minimal Media</a> offers <a href="http://minimalmedia.com/website-implementation">website implementation</a>, <a href="http://minimalmedia.com/consulting">consulting</a>, <a href="http://minimalmedia.com/seo">search engine optimization</a>, <a href="http://minimalmedia.com/managed-hosting">managed hosting</a> and <a href="http://minimalmedia.com/support">support</a> services, specializing in Drupal. Over 10 years of experience in open source software development and web content management. <strong>We use powerful open source tools to implement fast, functional, beautiful websites.</strong></p><address>Minimal Media<br />1034 Fifth Ave.<br />1st Floor<br />Pittsburgh, PA 15219<br /><br />877-664-0221<br />hello@minimalmedia.com</address></div></div>',
+        'summary' => '',
+        'format' => 'full_html',
+        'safe_value' => '<div class="footer">
+<div class="cell">
+<h3>About Cm</h3>
+<p><img alt="" src="/profiles/cm/themes/cm_theme/logo.png" style="width: 70px; height: 81px; " /></p>
+<p><a href="http://minimalmedia.com/products/cm" title="Cm is a web content management system based on Drupal">Cm</a> is a web content management system for businesses and institutions of all shapes and sizes.</p>
+</div>
+<div class="cell">
+<h3>About Minimal Media</h3>
+<p><a href="http://minimalmedia.com" title="Minimal Media">Minimal Media</a> offers <a href="http://minimalmedia.com/website-implementation">website implementation</a>, <a href="http://minimalmedia.com/consulting">consulting</a>, <a href="http://minimalmedia.com/seo">search engine optimization</a>, <a href="http://minimalmedia.com/managed-hosting">managed hosting</a> and <a href="http://minimalmedia.com/support">support</a> services, specializing in Drupal. Over 10 years of experience in open source software development and web content management. <strong>We use powerful open source tools to implement fast, functional, beautiful websites.</strong></p>
+<address>Minimal Media<br />1034 Fifth Ave.<br />1st Floor<br />Pittsburgh, PA 15219
+<p>877-664-0221<br /><a href="mailto:hello@minimalmedia.com">hello@minimalmedia.com</a></p></address>
+</div>
+</div>
+',
+        'safe_summary' => '',
+      ),
+    ),
+  ),
+);
 $content['contact-form'] = (object)array(
   'exported_path' => 'content/set-contact-form',
   'title' => 'Set up the Contact Form',

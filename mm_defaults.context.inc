@@ -128,6 +128,18 @@ function mm_defaults_context_default_contexts() {
           'region' => 'header',
           'weight' => '-10',
         ),
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'header',
+          'weight' => '-10',
+        ),
+        'nodeblock-19' => array(
+          'module' => 'nodeblock',
+          'delta' => 19,
+          'region' => 'bottom',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
