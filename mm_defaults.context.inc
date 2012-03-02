@@ -122,21 +122,21 @@ function mm_defaults_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '-8',
         ),
-        'search-form' => array(
-          'module' => 'search',
-          'delta' => 'form',
-          'region' => 'header',
-          'weight' => '-10',
-        ),
         'system-main-menu' => array(
           'module' => 'system',
           'delta' => 'main-menu',
           'region' => 'header',
           'weight' => '-10',
         ),
-        'nodeblock-19' => array(
+        'search-form' => array(
+          'module' => 'search',
+          'delta' => 'form',
+          'region' => 'header',
+          'weight' => '-10',
+        ),
+        'nodeblock-cm-footer' => array(
           'module' => 'nodeblock',
-          'delta' => 19,
+          'delta' => 'cm-footer',
           'region' => 'bottom',
           'weight' => '-10',
         ),
